@@ -10,32 +10,21 @@
 #include "DataStructure.h"
 #include "OutputHelper.h"
 
-#include "GridMaxQuery.h"
+#include "MovingAverageDataStream.h"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
 
-    SegmentTreeGrid mygrid(5,5);
+    MovingAverage mov(3);
     
-    mygrid.set(1,1,5);
-    mygrid.set(2,2,10);
-    mygrid.set(3,3,10);
-    mygrid.set(4,4,15);
-    std::cout << mygrid.getMax() << std::endl;    //15
-    mygrid.set(4,4,20);
-    std::cout << mygrid.getMax() << std::endl;    //20
-    mygrid.set(4,4,15);
-    std::cout << mygrid.getMax() << std::endl;    //15
-    mygrid.set(4,4,5);
-    mygrid.set(3,3,5);
-    std::cout << mygrid.getMax() << std::endl;    //10
-    mygrid.set(1,1,50);
-    std::cout << mygrid.getMax() << std::endl;    //50
-    mygrid.set(1,1,0);
-    mygrid.set(2,2,0);
-    mygrid.set(3,3,0);
-    mygrid.set(4,4,0);
-    std::cout << mygrid.getMax() << std::endl;    //0
+    std::cout << mov.next(1) << " ";
+    std::cout << mov.next(10) << " ";
+    std::cout << mov.next(3) << " ";
+    std::cout << mov.next(5) << " ";
+    std::cout << mov.next(0) << " ";
+    std::cout << mov.next(2) << " ";
+    std::cout << mov.next(1) << " ";
+
     return 0;
 }
