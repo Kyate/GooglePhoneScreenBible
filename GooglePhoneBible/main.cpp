@@ -10,13 +10,16 @@
 #include "DataStructure.h"
 #include "OutputHelper.h"
 
-#include "AddOneToLargeNumber.h"
+#include "MisspellingWord.h"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
-    vector<int> x{1,3,9,7,9};
-    vector<int> result = AddOneToLargeInteger(x);
+    
+    vector<string> dict{"apple", "people", "main","leetcode", "add", "adc"};
+    
+    vector<string> result = MisspellingWord(dict, "adb");
+    
     output1DVectorHelper(result);
 
     return 0;
