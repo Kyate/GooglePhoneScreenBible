@@ -35,6 +35,8 @@
 		E58585911D0B423500286BA6 /* GridMaxQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridMaxQuery.h; sourceTree = "<group>"; };
 		E58585921D0B5D0200286BA6 /* NodeParentId.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeParentId.h; sourceTree = "<group>"; };
 		E58585931D0BBDA500286BA6 /* MovingAverageDataStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovingAverageDataStream.h; sourceTree = "<group>"; };
+		E58585941D0BC41B00286BA6 /* BinaryReplacement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryReplacement.h; sourceTree = "<group>"; };
+		E58585951D0BCEF400286BA6 /* AddOneToLargeNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddOneToLargeNumber.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,8 @@
 				E58585911D0B423500286BA6 /* GridMaxQuery.h */,
 				E58585921D0B5D0200286BA6 /* NodeParentId.h */,
 				E58585931D0BBDA500286BA6 /* MovingAverageDataStream.h */,
+				E58585941D0BC41B00286BA6 /* BinaryReplacement.h */,
+				E58585951D0BCEF400286BA6 /* AddOneToLargeNumber.h */,
 			);
 			path = GooglePhoneBible;
 			sourceTree = "<group>";
