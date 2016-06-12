@@ -211,6 +211,8 @@ bless～
 
 	希望将来面试的人好好审题。
 	Good Luck Everyone!
+	
+	[http://www.1point3acres.com/bbs/thread-190302-1-1.html](http://www.1point3acres.com/bbs/thread-190302-1-1.html)
 
 15.	美国小哥挺友好的，一直在肯定我说的话，题目不难，气氛还算不错，希望能顺利onsite。 
 
