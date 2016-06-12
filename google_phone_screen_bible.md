@@ -1,13 +1,10 @@
 # Google Phone Screen 最新面经
 
 1.	面完一周还没消息催了下hr， 刚通知过了， 可以愉快的准备onsite了。分享下电面题。面试官是个berkeley 本科一路读到phd的黑哥们。	简化版有向图找环， 给一堆edges， 找到eg. 1->2 , 同时2->1的这种边的个数， 比如上面这个例子， 应该返回2。 秒答以后问了下复杂度。	有一个double类型的数组， 找满足 [a, a + 1) 的最长序列含有的元素的个数， eg. [ 1.0 ,1.3 ,1.5 ,2.3, 3.5],  最长的是[1.0 1.3 1.5], 应该返回3。这种小学5年级的数学（数组操作）题对我来说是很困难的， 我直接说暴力解法呗， 然后面试官提醒了下用greedy的方法。 然而代码还是写的很艰难。。。大家可以自己写写O(n)的方法练习一下。	[http://www.1point3acres.com/bbs/thread-192426-1-1.html](http://www.1point3acres.com/bbs/thread-192426-1-1.html)2.	刚面完，貌似是个欧洲小哥，上来hello完了以后就开始做题，两个题:	第一个 lc 54 spiral matrix稍微改动了下成了x,y坐标的image上色，解释题目解释了半天，其实换汤不换药。这个时候加上前面找doc和看小哥演示链接的时间，快磨叽过去十分钟了，但是自己非常sb的紧张的一比，结果半个小时才断断续续写出来，中途还想打开leetcode抄一波，结果居然忘了题目的名字了。。崩盘。。只好默默回去写……而且中间还把x,y坐标搞反了，自己卡了半天，小哥显然非常的无语。。写完了以后竟然过去半个多小时了，感觉还有bug，不过就小哥也没care。。然后是第二题。	第二题 sorted list 2sum楼主一看感觉这tm挽回颜面的时间到了！！！解释了下思路然后瞬间秒了，然后walk trough了一下test case。小哥就说没时间了，然后good luck。。感觉好虚……第一题居然花了那么久，还是自己太不淡定了，现在只求2面。。bless me.... 大家面试的时候一定要静下心来，不要浮躁。。发挥出自己的正常水平基本就很稳了。祝大家找工顺利。。	
-	[http://www.1point3acres.com/bbs/thread-192578-1-1.html](http://www.1point3acres.com/bbs/thread-192578-1-1.html)3.	第一次电面很紧张，是个小哥，人不冷不热。貌似是新题，题目很简单一个 binary watch，类似下图的http://www.slipperybrick.com/wp- ... ed_binary_watch.jpg.
+	[http://www.1point3acres.com/bbs/thread-192578-1-1.html](http://www.1point3acres.com/bbs/thread-192578-1-1.html)3.	第一次电面很紧张，是个小哥，人不冷不热。貌似是新题，题目很简单一个 binary watch，类似下图![image](http://www.slipperybrick.com/wp-content/uploads/2007/12/led_binary_watch.jpg)
 	比如：
-	1000 > 
-
-	8
-	000011 >
-	3	时间就是08:03. 
+		1000 > 8
+		000011 > 3	时间就是08:03. 
 	让输出所有亮三个灯的时间。刚开始感觉可以用backtracking来枚举情况，写了一会小哥不理解，然后提示用最naive的方式，写一个countones的函数，然后从 0000 -> 1111分别调用countones来枚举所有符合条件的情况。需要注意，小时必须小于12，分钟必须小于60.做完有个小bug在提醒下改了，然后时间不多就问了几个问题。请问电面是不是都是两道题，我只做了一道是不是没希望了.bless～
 	[http://www.1point3acres.com/bbs/thread-192342-1-1.html](http://www.1point3acres.com/bbs/thread-192342-1-1.html)4.	本来投的是EE方向，后来recruiter主动联系说你投的已经满了，想不想面SDE，我说当然好了，然后五月初写完了OA，题目很稳定，地里面两道题答案都有今天下午电面，面试官听口音应该是个美国本地大叔，声音很和蔼，是总部的site reliability engineer， 先跟我聊了下简历，然后就开始做题。
 	第一题：打印所有的质数（print all prime numbers），我已开始没理解清楚范围，设了个i <Integer.MAX_VALUE，为了第一题秒时间，我没多想就用了俩for loop写出来了，他说可以，这样能保证小范围的质数短时间打出来

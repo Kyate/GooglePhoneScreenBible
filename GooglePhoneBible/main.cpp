@@ -10,7 +10,7 @@
 #include "DataStructure.h"
 #include "OutputHelper.h"
 
-#include "FastStructure.h"
+#include "GroupFiveConsecutive.h"
 
 using namespace std;
 
@@ -18,22 +18,11 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     
 
-    FastStructure test;
+    vector<int> nums{4,5,3,1,2,5,4};
     
-    test.insert(1);
-    test.insert(2);
-    test.insert(3);
-    test.insert(4);
-    test.insert(4);
-    test.insert(5);
-    test.insert(5);
-    test.insert(5);
-    test.del(5);
-    test.del(5);
+    bool result = GroupFiveConsecutive(nums);
     
-    double med = test.median();
-    
-    int mod = test.mode();
+    std::cout << result << std::endl;
 
     return 0;
 }
