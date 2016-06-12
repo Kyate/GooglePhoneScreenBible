@@ -197,7 +197,7 @@ bless～
 
 		Give you an array of integers: A
 	 
-		Goal is to find three indexes (i,j,k) such that A + A[j] == A[k]
+		Goal is to find three indexes (i,j,k) such that A[i] + A[j] == A[k]
 
 		For Example:
 		A = [ -5, 10, 1, 8, -2 ]
