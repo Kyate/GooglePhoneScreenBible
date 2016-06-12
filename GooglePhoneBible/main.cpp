@@ -10,7 +10,7 @@
 #include "DataStructure.h"
 #include "OutputHelper.h"
 
-#include "GroupFiveConsecutive.h"
+#include "StringEncoderDecoder.h"
 
 using namespace std;
 
@@ -18,11 +18,17 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     
 
-    vector<int> nums{4,5,3,1,2,5,4};
+    string s = "yyyyy\\\\";
     
-    bool result = GroupFiveConsecutive(nums);
+    std::cout << "original " << s << std::endl;
     
-    std::cout << result << std::endl;
+    StringEncoderDecoder sde;
+    string result = sde.encoder(s);
+    
+    std::cout << "encoded  " << result << std::endl;
+    
+    string r2 = sde.decoder(result);
+    std::cout << "decoded  " << r2 << std::endl;
 
     return 0;
 }

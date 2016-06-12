@@ -9,6 +9,10 @@
 #ifndef GroupFiveConsecutive_h
 #define GroupFiveConsecutive_h
 
+#include "DataStructure.h"
+
+using namespace std;
+
 /*
  
  给我一堆unsorted数字，问我可不可以等分成若干组，每组由五个连续的整数组成。 

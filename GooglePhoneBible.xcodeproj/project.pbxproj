@@ -36,6 +36,7 @@
 		E522F0D41D0A256F0050F8AD /* SortedListTwoSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortedListTwoSum.h; sourceTree = "<group>"; };
 		E522F0D51D0A42DD0050F8AD /* BinaryWatchThreeBits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryWatchThreeBits.h; sourceTree = "<group>"; };
 		E522F0D61D0A49150050F8AD /* PrintAllPrimes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintAllPrimes.h; sourceTree = "<group>"; };
+		E5635CDF1D0DF3A800142D52 /* StringEncoderDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringEncoderDecoder.h; sourceTree = "<group>"; };
 		E58585911D0B423500286BA6 /* GridMaxQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridMaxQuery.h; sourceTree = "<group>"; };
 		E58585921D0B5D0200286BA6 /* NodeParentId.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeParentId.h; sourceTree = "<group>"; };
 		E58585931D0BBDA500286BA6 /* MovingAverageDataStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovingAverageDataStream.h; sourceTree = "<group>"; };
@@ -90,6 +91,7 @@
 				E5036A581D0CF79E00B2B543 /* DifferentChar.h */,
 				E5036A591D0D00BE00B2B543 /* FastStructure.h */,
 				E5036A5A1D0D1B0D00B2B543 /* GroupFiveConsecutive.h */,
+				E5635CDF1D0DF3A800142D52 /* StringEncoderDecoder.h */,
 			);
 			path = GooglePhoneBible;
 			sourceTree = "<group>";
