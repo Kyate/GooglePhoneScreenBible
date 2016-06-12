@@ -13,6 +13,13 @@
 
 using namespace std;
 
+/*
+ 
+ 2. 一个整数一数组形势给出，给这个数作加1。
+ 链接: https://instant.1point3acres.com/thread/176414
+ 来源: 一亩三分地
+ */
+
 vector<int> AddOneToLargeInteger(vector<int> & largeNum) {
     int add = 0;
     for (int i = largeNum.size()-1; i>=0; i--) {

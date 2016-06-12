@@ -10,17 +10,18 @@
 #include "DataStructure.h"
 #include "OutputHelper.h"
 
-#include "MisspellingWord.h"
+#include "DifferentChar.h"
 
 using namespace std;
 
+
 int main(int argc, const char * argv[]) {
     
-    vector<string> dict{"apple", "people", "main","leetcode", "add", "adc"};
+    string s2 = "appl", s1 = "apppl";
     
-    vector<string> result = MisspellingWord(dict, "adb");
+    char one = DifferentCharUnordered(s1, s2);
     
-    output1DVectorHelper(result);
+    std::cout << one << std::endl;
 
     return 0;
 }
