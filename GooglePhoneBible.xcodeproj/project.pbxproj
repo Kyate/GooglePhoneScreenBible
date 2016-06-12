@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		E5036A571D0CAE8900B2B543 /* MisspellingWord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MisspellingWord.h; sourceTree = "<group>"; };
 		E5036A581D0CF79E00B2B543 /* DifferentChar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DifferentChar.h; sourceTree = "<group>"; };
+		E5036A591D0D00BE00B2B543 /* FastStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastStructure.h; sourceTree = "<group>"; };
 		E522F0C61D0A14200050F8AD /* GooglePhoneBible */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GooglePhoneBible; sourceTree = BUILT_PRODUCTS_DIR; };
 		E522F0C91D0A14200050F8AD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E522F0D01D0A14480050F8AD /* DoubleIntegerRangeNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleIntegerRangeNumber.h; sourceTree = "<group>"; };
@@ -86,6 +87,7 @@
 				E58585951D0BCEF400286BA6 /* AddOneToLargeNumber.h */,
 				E5036A571D0CAE8900B2B543 /* MisspellingWord.h */,
 				E5036A581D0CF79E00B2B543 /* DifferentChar.h */,
+				E5036A591D0D00BE00B2B543 /* FastStructure.h */,
 			);
 			path = GooglePhoneBible;
 			sourceTree = "<group>";

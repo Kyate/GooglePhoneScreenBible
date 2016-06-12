@@ -10,18 +10,30 @@
 #include "DataStructure.h"
 #include "OutputHelper.h"
 
-#include "DifferentChar.h"
+#include "FastStructure.h"
 
 using namespace std;
 
 
 int main(int argc, const char * argv[]) {
     
-    string s2 = "appl", s1 = "apppl";
+
+    FastStructure test;
     
-    char one = DifferentCharUnordered(s1, s2);
+    test.insert(1);
+    test.insert(2);
+    test.insert(3);
+    test.insert(4);
+    test.insert(4);
+    test.insert(5);
+    test.insert(5);
+    test.insert(5);
+    test.del(5);
+    test.del(5);
     
-    std::cout << one << std::endl;
+    double med = test.median();
+    
+    int mod = test.mode();
 
     return 0;
 }
