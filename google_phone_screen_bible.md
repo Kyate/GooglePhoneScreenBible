@@ -91,6 +91,7 @@ bless～
 	[http://www.1point3acres.com/bbs/thread-192195-1-1.html](http://www.1point3acres.com/bbs/thread-192195-1-1.html)
 
 6.	上周GOOGLE 店面， 一个题 , 一直标准的系统函数read， 有一个功能 每次就读一个字节， 然后要经常读，在一个loop 里， 问如何优化。 结果就是一次点用read多读一些，放在缓存里，用没了再读。
+
 	[http://www.1point3acres.com/bbs/thread-191880-1-1.html](http://www.1point3acres.com/bbs/thread-191880-1-1.html)
 
 7.	给一堆nodes有，每个里面有 id，有parent_id
