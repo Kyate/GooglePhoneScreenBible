@@ -10,25 +10,19 @@
 #include "DataStructure.h"
 #include "OutputHelper.h"
 
-#include "StringEncoderDecoder.h"
+#include "SquareSort.h"
 
 using namespace std;
 
 
 int main(int argc, const char * argv[]) {
     
+    vector<int> nums{-9, -7, -6, -5, -2, -1};
+    
+    vector<int> result = SquareSort(nums);
+    
+    output1DVectorHelper(result);
 
-    string s = "yyyyy\\\\";
-    
-    std::cout << "original " << s << std::endl;
-    
-    StringEncoderDecoder sde;
-    string result = sde.encoder(s);
-    
-    std::cout << "encoded  " << result << std::endl;
-    
-    string r2 = sde.decoder(result);
-    std::cout << "decoded  " << r2 << std::endl;
 
     return 0;
 }
