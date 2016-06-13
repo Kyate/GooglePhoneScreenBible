@@ -10,18 +10,18 @@
 #include "DataStructure.h"
 #include "OutputHelper.h"
 
-#include "SquareSort.h"
+#include "ThreeIdxSum.h"
 
 using namespace std;
 
 
 int main(int argc, const char * argv[]) {
     
-    vector<int> nums{-9, -7, -6, -5, -2, -1};
+    vector<int> nums{-5, 10, 1, 8, -2};
     
-    vector<int> result = SquareSort(nums);
+    vector<vector<int>> result = ThreeIdxSum(nums);
     
-    output1DVectorHelper(result);
+    output2DMatHelper(result);
 
 
     return 0;
