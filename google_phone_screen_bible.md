@@ -255,6 +255,9 @@ bless～
 	
 
 	求好运~，求onsite
+	
+	[http://www.1point3acres.com/bbs/thread-189365-1-1.html](http://www.1point3acres.com/bbs/thread-189365-1-1.html)
+	
 
 18.	打过来电话后人家先让我自我介绍一下，并且给她讲一个project，完后就是google doc做题。
 
