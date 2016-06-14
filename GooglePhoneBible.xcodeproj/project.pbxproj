@@ -41,6 +41,7 @@
 		E54225891D0E41EB00A74626 /* StringSerializerDeserializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringSerializerDeserializer.h; sourceTree = "<group>"; };
 		E542258A1D0E474E00A74626 /* ThreeIdxSum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeIdxSum.h; sourceTree = "<group>"; };
 		E542258B1D0E52C100A74626 /* MovingAverageDoubleStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovingAverageDoubleStream.h; sourceTree = "<group>"; };
+		E542258C1D0FAB6E00A74626 /* StringDecompression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringDecompression.h; sourceTree = "<group>"; };
 		E5635CDF1D0DF3A800142D52 /* StringEncoderDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringEncoderDecoder.h; sourceTree = "<group>"; };
 		E58585911D0B423500286BA6 /* GridMaxQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridMaxQuery.h; sourceTree = "<group>"; };
 		E58585921D0B5D0200286BA6 /* NodeParentId.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeParentId.h; sourceTree = "<group>"; };
@@ -102,6 +103,7 @@
 				E54225891D0E41EB00A74626 /* StringSerializerDeserializer.h */,
 				E542258A1D0E474E00A74626 /* ThreeIdxSum.h */,
 				E542258B1D0E52C100A74626 /* MovingAverageDoubleStream.h */,
+				E542258C1D0FAB6E00A74626 /* StringDecompression.h */,
 			);
 			path = GooglePhoneBible;
 			sourceTree = "<group>";
