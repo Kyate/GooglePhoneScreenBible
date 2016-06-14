@@ -12,19 +12,17 @@
 #include <mutex>
 #include <thread>
 
-#include "BigNumberAdd.h"
+#include "TwoSumClosestModel.h"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
     
-    vector<int> n1{9,5,3,8,7};
-    vector<int> n2{5,8,6,5,9};
+    vector<int> n1{-6, 0, -10, 2, 13, 12, 5, 3, 8, 7};
     
-    vector<int> x = BigNumberAdd(n1, n2);
+    vector<int> result = TwoSumClosestPair(n1);
     
-    output1DVectorHelper(x);
-
+    output1DVectorHelper(result);
 
     return 0;
 }
