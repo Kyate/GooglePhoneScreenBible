@@ -263,6 +263,8 @@ bless～
 		example
 		3[ab]2[abc]e ==> ababababcabce
 		3[2[de]f]==>  dedefdedefdedef
+		
+	[http://www.1point3acres.com/bbs/thread-189938-1-1.html](http://www.1point3acres.com/bbs/thread-189938-1-1.html)
 
 19.	上次电面之后，Recruiter给我打电话说是“好消息”，然后给我加了一轮电面。_(:з)∠)_ 
 
