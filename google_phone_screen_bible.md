@@ -474,6 +474,21 @@ bless～
 
 	链接: [https://instant.1point3acres.com/thread/166460](https://instant.1point3acres.com/thread/166460)
 	来源: 一亩三分地
+	
+26.	刷题刷累了，上来攒人品！
+	搞了两次电面，可能是第一次面的不好又给了第二次机会。还好后来过了，明天onsite。。。Finger crossed！
+
+	第一次电面：假设除了用1和0表示数字的binary方式，还可以用2来表示，给一个数字，求有多少种表达方式。
+        
+        例子：
+        4 = 100, 20, 12 所以答案是3。 
+        8 = 1000, 200, 120, 112 所以答案是4。这题想了半天没想出来，后来给了提示用dp写出来了。
+
+	第二次电面：两题都是lc原题，lc298 (Longest consecutive sequence in BT) 和lc128 (longest consecutive sequence in array)。各位自己去看解法吧！
+
+	祝大家找工作顺利！！！
+
+	[http://www.1point3acres.com/bbs/thread-192677-1-1.html](http://www.1point3acres.com/bbs/thread-192677-1-1.html)
 
 27.	面试官一美国小哥，简单闲聊后甩题：
 
