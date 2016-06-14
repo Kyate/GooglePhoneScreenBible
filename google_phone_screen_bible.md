@@ -42,26 +42,22 @@ bless～
 
 4.	本来投的是EE方向，后来recruiter主动联系说你投的已经满了，想不想面SDE，我说当然好了，然后五月初写完了OA，题目很稳定，地里面两道题答案都有今天下午电面，面试官听口音应该是个美国本地大叔，声音很和蔼，是总部的site reliability engineer， 先跟我聊了下简历，然后就开始做题。
 
-
-	第一题：打印所有的质数（print all prime numbers），我已开始没理解清楚范围，设了个i <Integer.MAX_VALUE，为了第一题秒时间，我没多想就用了俩for loop写出来了，他说可以，这样能保证小范围的质数短时间打出来
-
+	第一题：打印所有的质数（print all prime numbers），我已开始没理解清楚范围，设了个i<Integer.MAX_VALUE，为了第一题秒时间，我没多想就用了俩for loop写出来了，他说可以，这样能保证小范围的质数短时间打出来
 
 	第二题：follow up， what if keep printing to the number that greater than the biginteger by using java, 没想明白,我说java里面有biginteger的library，大于long的长度，他说这样用第一题的方法的话越到最后时间越长，两个数间隔好很久（假设n到正无穷..）. From 1point 3acres bbs
 因为是个O(N*N)的解法，有没有更好的解法，大叔很有耐心，一直在等我想，也给了些hint，我最后没想出来，后来时间到了，感觉药丸。
 
-
 	后来他推荐说经常上project euler上面刷刷题，我说好的，估计是暗示我刷的不够吧，本来专业就不一样，EE出身半路出家转CS，最后一学期发现EE工作很难找于是赚了CS，还是挺吃力的，anyway，先写出来给地里的兄弟姐妹们看看面经吧，攒个人品
 
-	
 	[http://www.1point3acres.com/bbs/thread-192458-1-1.html](http://www.1point3acres.com/bbs/thread-192458-1-1.html)
 
 5.	直接上题
 
-	write a grid class. 
-
-	1. set the height and width
-	2. set value at arbitrary point
-	3. get max value of the grid
+		write a grid class. 
+	
+		1. set the height and width
+		2. set value at arbitrary point
+		3. get max value of the grid
 
 	一开始问我用什么结构存这个grid， 我说vector，他问为什么，我说可以random access。
 
