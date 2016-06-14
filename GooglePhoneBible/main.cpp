@@ -12,18 +12,18 @@
 #include <mutex>
 #include <thread>
 
-#include "StringDecompression.h"
+#include "BigNumberAdd.h"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
     
+    vector<int> n1{9,5,3,8,7};
+    vector<int> n2{5,8,6,5,9};
     
-    string s = "2[ab3[d]uo]2[cc]";
+    vector<int> x = BigNumberAdd(n1, n2);
     
-    string result = StringDecompressionIterative(s);
-    
-    cout << result << std::endl;
+    output1DVectorHelper(x);
 
 
     return 0;
