@@ -9,6 +9,9 @@
 #ifndef MovingAverageDataStream_j_h
 #define MovingAverageDataStream_j_h
 
+#include <mutex>
+#include <thread>
+
 /*
  
  Google 技术店面，4月份面的，楼主太懒，一直拖到现在。 听口音应该是白人小哥，上来寒暄一番，说说自己在google 做什么，然后问了些关于项目的东西，然
@@ -27,18 +30,23 @@ public:
     };
     
     double next(int val) {
+        mlock.lock();
         sum += val;
         myqueue.push_back(val);
         if (myqueue.size()>wsize) {
             sum -= myqueue.front();
             myqueue.pop_front();
         }
+        std::cout << static_cast<double>(sum)/ myqueue.size() << std::endl;
+        mlock.unlock();
         return static_cast<double>(sum)/ myqueue.size();
     };
     
     int wsize = 0;
     int sum = 0;
+    mutex mlock;
     deque<int> myqueue;
+    
 };
 
 #endif /* MovingAverageDataStream_j_h */
