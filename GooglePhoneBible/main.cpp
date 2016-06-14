@@ -21,7 +21,7 @@ int main(int argc, const char * argv[]) {
     
     string s = "2[ab3[d]uo]2[cc]";
     
-    string result = StringDecompression(s);
+    string result = StringDecompressionIterative(s);
     
     cout << result << std::endl;
 

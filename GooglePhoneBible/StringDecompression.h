@@ -56,6 +56,48 @@ string StringDecompression(string & s) {
     return result;
 }
 
+string StringDecompressionIterative(string & s) {
+    stack<string> mystack;
+    int pos = 0;
+    string result = "";
+    while(pos<s.length()){
+        if (s[pos]!=']') {
+            mystack.push(string(1,s[pos]));
+            pos++;
+            continue;
+        }
+        else {
+            string current;
+            while(!mystack.empty() && mystack.top()!="[") {
+                current += mystack.top();
+                mystack.pop();
+            }
+            mystack.pop();
+            string num;
+            while(!mystack.empty() && mystack.top()>="0" && mystack.top()<="9") {
+                num += mystack.top();
+                mystack.pop();
+            }
+            reverse(num.begin(), num.end());
+            int numRep = stoi(num);
+            string repCurrent;
+            for (int i = 0; i < numRep; i++) repCurrent += current;
+            mystack.push(repCurrent);
+            pos++;
+        }
+    }
+    
+    while(!mystack.empty()) {
+        result += mystack.top();
+        mystack.pop();
+    }
+    
+    reverse(result.begin(), result.end());
+    
+    return result;
+    
+}
+
 
 
 #endif /* StringDecompression_h */

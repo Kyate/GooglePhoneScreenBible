@@ -488,6 +488,19 @@ bless～
 
 	[http://www.1point3acres.com/bbs/thread-192677-1-1.html](http://www.1point3acres.com/bbs/thread-192677-1-1.html)
 
+27. recruitor email找到我。问我有没有兴趣面谷歌。由于Lz自己确实在准备跳槽。只是没准备好。于是想面一个试试。电话接通了没有废话，直接做题。
+
+   给一个tree，每一个treeNode多2个指针pre next但是是空的。要求按inorder的顺序把指针连起来。
+   Lz用recursion。写的不好。
+   
+   followup是怎么实现insert方法。还问了时间复杂度和空间复杂度。
+   
+   第一次面试太紧张，已跪。
+   
+   祝大家早日找到工作。
+   
+   [http://www.1point3acres.com/bbs/thread-192582-1-1.html](http://www.1point3acres.com/bbs/thread-192582-1-1.html)
+
 27.	面试官一美国小哥，简单闲聊后甩题：
 
 
@@ -495,8 +508,13 @@ bless～
 
 	举个栗子：
 
-		array：['animal','duck','snake','zebra','horse','mouse'], favorite letter:'zh',  output--->['zebra','horse','animal','duck','mouse','snake']
-		array：['aab','baa','caa','aaa','aaaa'], favorite letter:'ab',  output--->['aaa','aaaa','aab','baa','caa']
+		array：['animal','duck','snake','zebra','horse','mouse']
+		favorite letter:'zh'
+		output--->['zebra','horse','animal','duck','mouse','snake']
+		
+		array：['aab','baa','caa','aaa','aaaa']
+		favorite letter:'ab'
+		output--->['aaa','aaaa','aab','baa','caa']
 
 	算是半个水题。用随便一种sorting自己定义一个 comparator就ok。也可以用类似radix sort 来逐层比较每一个位置的letter。但是本人脑抽，一紧张把quicksort的pivot index搞错被interviewer发现了。估计难逃一死了。
 
@@ -510,6 +528,12 @@ bless～
 
 	
 	[http://www.1point3acres.com/bbs/thread-173016-1-1.html](http://www.1point3acres.com/bbs/thread-173016-1-1.html)
+
+28. Leetcode 原题， missing range 。因为没有做过 电面也很紧张，所以45分钟只有时间做一道题。
+
+	所以说 leetcode 收费题目还是应该去花钱做一做的。
+	
+	[http://www.1point3acres.com/bbs/thread-190925-1-1.html](http://www.1point3acres.com/bbs/thread-190925-1-1.html)
 
 28.	上周五面的，上来直接做题~
 
@@ -535,13 +559,31 @@ bless～
 	
 	There are now new requirements for getLongestSubstring! The string doesn't fit into memory. Instead you get an object of type BigString: 
 	
-		interface BigString { public boolean hasNextChar(); public char getNextChar(); } 
+		interface BigString { 
+			public boolean hasNextChar(); 
+			public char getNextChar(); 
+		} 
 	
 	补充内容 (2016-4-3 12:28): onsite求人品TAT….虽然拿到onsite就已经是赚了….
 
 	链接: [https://instant.1point3acres.com/thread/171729](https://instant.1point3acres.com/thread/171729)
 	来源: 一亩三分地
 
+30. 一位阿三PHD面的，问了简单的背景问题和两个技术问题。看完问题之后我就知道和Google今年缘尽于此了。
+
+		Q) Write a program to count the total number of pages reachable from a website.
+		For example, given "nytimes.com", count the number of pages reachable from there.
+		You can assume you are given a function to fetch the page and extract the inner links, e.g.:
+		List<String> fetchPageAndExtractUrls(String url);
+
+		Q) Given a tiny computer with a 1 MHz CPU and 1 KiB of RAM memory;
+		no input;
+		only output is an LED light that says “I am done”.
+		(1 MHz == 1 million instructions per second)
+		I load an arbitrary unknown program onto this computer.
+		How long do we have to wait in wall-clock time before we can prove the program has an infinite loop?
+		
+	[http://www.1point3acres.com/bbs/thread-134847-1-1.html](http://www.1point3acres.com/bbs/thread-134847-1-1.html)
 	
 30.	刚刚结束的Google电面，在google呆了8年的貌似国人大哥。 
 
