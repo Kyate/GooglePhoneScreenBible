@@ -12,17 +12,15 @@
 #include <mutex>
 #include <thread>
 
-#include "TwoSumClosestModel.h"
+#include "SkyLine.h"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
     
-    vector<int> n1{-6, 0, -10, 2, 13, 12, 5, 3, 8, 7};
+    vector<vector<int>> buildings{{0,2,3}, {2,5,3}, {2,6,5}};
     
-    vector<int> result = TwoSumClosestPair(n1);
-    
-    output1DVectorHelper(result);
+    vector<pair<int,int>> result = getSkyline(buildings);
 
     return 0;
 }
