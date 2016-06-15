@@ -12,15 +12,13 @@
 #include <mutex>
 #include <thread>
 
-#include "BCDAddOne.h"
-
 using namespace std;
+
+
 
 int main(int argc, const char * argv[]) {
     
-    string result = BCDAddOne("10011001");
-    
-    std::cout << result << std::endl;
+
     
     return 0;
 }

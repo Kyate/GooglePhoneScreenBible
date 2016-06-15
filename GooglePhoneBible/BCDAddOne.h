@@ -13,6 +13,12 @@
 
 using namespace std;
 
+/*
+ 
+ 求BCD编码 + 1的值，例如：35的BCD编码是0011 | 0101，给一个BCD的值，输出这个值 + 1的BCD，比如input为0011 | 0101，输出则为0011 | 0110
+ 每四位BCD码在0-9之间 所以从0000到1001
+ */
+
 string singleBCDAddone(string bcd) {
     int add = 0;
     string result(4,' ');

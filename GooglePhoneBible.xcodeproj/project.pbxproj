@@ -52,6 +52,7 @@
 		E54225941D11B05B00A74626 /* RobotMoving.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RobotMoving.h; sourceTree = "<group>"; };
 		E54225951D11CD5A00A74626 /* CircleIntersection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleIntersection.h; sourceTree = "<group>"; };
 		E54225961D11CE6900A74626 /* BCDAddOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCDAddOne.h; sourceTree = "<group>"; };
+		E54225971D11D5AD00A74626 /* FilterOutChar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterOutChar.h; sourceTree = "<group>"; };
 		E5635CDF1D0DF3A800142D52 /* StringEncoderDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringEncoderDecoder.h; sourceTree = "<group>"; };
 		E58585911D0B423500286BA6 /* GridMaxQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridMaxQuery.h; sourceTree = "<group>"; };
 		E58585921D0B5D0200286BA6 /* NodeParentId.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeParentId.h; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 				E54225941D11B05B00A74626 /* RobotMoving.h */,
 				E54225951D11CD5A00A74626 /* CircleIntersection.h */,
 				E54225961D11CE6900A74626 /* BCDAddOne.h */,
+				E54225971D11D5AD00A74626 /* FilterOutChar.h */,
 			);
 			path = GooglePhoneBible;
 			sourceTree = "<group>";
