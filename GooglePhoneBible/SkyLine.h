@@ -34,8 +34,11 @@ vector<pair<int, int>> getSkyline(vector<vector<int>>& buildings) {
     vector<pair<int,int>> corners;
     for (auto p : coord) {
         
-        // p.first != x ----------> all corners at x have been processed, and we can find the maximum height at x
-        // corners.rbegin()->second != y ---------> avoid the repeat like (2,3), (5,3) in the result
+        // p.first != x
+        // ----------> all corners at x have been processed, and we can find the maximum height at x
+        //
+        // corners.rbegin()->second != y
+        // ---------> avoid the repeat like (2,3), (5,3) in the result
         
         if ((x>=0) && (p.first != x) && (corners.empty() || corners.rbegin()->second != y)) {
             corners.push_back(pair<int,int>(x,y));

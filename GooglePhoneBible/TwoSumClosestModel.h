@@ -13,6 +13,14 @@
 
 using namespace std;
 
+/*
+ 
+ 一个整数数组，找sum最接近0的一对数。2Sum Closest Pair。 求onsite。(:з)∠) 烙印全程不怎么说话，搞得我心里很虚。是福不是祸，是祸躲不过。(:з)∠)
+ 
+ 链接: https://instant.1point3acres.com/thread/165509 来源: 一亩三分地
+ 
+ */
+
 vector<int> TwoSumClosestPair(vector<int> & nums) {
     vector<int> result(2);
     sort(nums.begin(), nums.end());
