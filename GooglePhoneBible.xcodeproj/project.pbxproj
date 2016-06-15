@@ -64,6 +64,7 @@
 		E58585951D0BCEF400286BA6 /* AddOneToLargeNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddOneToLargeNumber.h; sourceTree = "<group>"; };
 		E5FC4C851D11F6C2006113C1 /* LongestConsecutiveArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestConsecutiveArray.h; sourceTree = "<group>"; };
 		E5FC4C861D11FDDE006113C1 /* TreeInorderConnect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeInorderConnect.h; sourceTree = "<group>"; };
+		E5FC4C871D120F47006113C1 /* SortStringsFavorite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortStringsFavorite.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +137,7 @@
 				E542259A1D11F16700A74626 /* LongestConsecutiveBinaryTree.h */,
 				E5FC4C851D11F6C2006113C1 /* LongestConsecutiveArray.h */,
 				E5FC4C861D11FDDE006113C1 /* TreeInorderConnect.h */,
+				E5FC4C871D120F47006113C1 /* SortStringsFavorite.h */,
 			);
 			path = GooglePhoneBible;
 			sourceTree = "<group>";

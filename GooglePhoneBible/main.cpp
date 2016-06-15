@@ -12,28 +12,19 @@
 #include <mutex>
 #include <thread>
 
-#include "TreeInorderConnect.h"
+#include "SortStringsFavorite.h"
 
 using namespace std;
 
 
 int main(int argc, const char * argv[]) {
 
-    TreeDoubleLinkNode * root = new TreeDoubleLinkNode(1);
-    TreeDoubleLinkNode * n2 = new TreeDoubleLinkNode(2);
-    TreeDoubleLinkNode * n3 = new TreeDoubleLinkNode(3);
-    TreeDoubleLinkNode * n4 = new TreeDoubleLinkNode(4);
-    TreeDoubleLinkNode * n5 = new TreeDoubleLinkNode(5);
-    TreeDoubleLinkNode * n6 = new TreeDoubleLinkNode(6);
+    vector<string> strs{"aab","baa","caa","aaa","aaaa"};
     
-    root->left = n2;
-    root->right = n3;
+    SortWithFavorite(strs, "zh");
     
-    n2->left = n4;
-    n3->left = n5;
-    n3->right = n6;
-    
-    InorderConnectRecursive(root); 
+    output1DVectorHelper(strs);
+
     
     return 0;
 }
