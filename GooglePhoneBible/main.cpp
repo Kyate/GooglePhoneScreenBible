@@ -12,17 +12,24 @@
 #include <mutex>
 #include <thread>
 
-#include "numberABC.h"
+#include "MostFrequentWord.h"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
     
-    int A = 34567, B = 45678;
+    MostFreqWord freq;
+    freq.add("abc");
     
-    int result = MinimumNumberABC(A, B);
-    
-    std::cout << result << std::endl;
+    std::cout << freq.get() << std::endl;
 
+    freq.add("abc");
+    freq.add("jjj");
+    freq.add("jjj");
+    freq.add("jjj");
+    freq.add("abc");
+    freq.add("abc");
+    std::cout << freq.get() << std::endl;
+    
     return 0;
 }
