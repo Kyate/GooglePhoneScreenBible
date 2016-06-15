@@ -384,13 +384,16 @@ bless～
 
 23. 两道题
 
-	maxDepth of a tree:recursion
+		1. maxDepth of a tree:recursion
 	
-	Design a interface for find the running mode in a stream of values: 随时返回most frequent word
-    
-	先写函数get();add(String input); 
+		2. Design a interface for find the running mode in a stream of values: 随时返回most frequent word
+	
+	先写函数
+	
+		get();
+		add(String input); 
 
-	再问怎么实现这个两个函数：先说了Heap, get()-->O(1),add()--O(n) 
+	再问怎么实现这个两个函数：先说了Heap, get()--O(1),add()--O(n) 
 
 	然后她说优化add(),我说用HashMap+ counter，这样get()-->O(1),add()--->O(1)   然后开始写代码。。   
 
@@ -404,6 +407,9 @@ bless～
    
 
 	 - 我说用cache。大概说了说，时间就到了，她说you are in the right track，但是我们没时间了。
+
+	 
+	[http://www.1point3acres.com/bbs/thread-188200-1-1.html](http://www.1point3acres.com/bbs/thread-188200-1-1.html)
 
 
 24.	一上来就直接贴题目做。面试官是个口音不重的印度小哥，不过给我的感觉他还比较nice。 
