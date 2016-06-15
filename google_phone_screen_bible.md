@@ -358,7 +358,7 @@ bless～
 	
 		Find the total number of patterns of the Android lock screen. The number of key used has to be at least 4, and max 9.
 		Example:
-		If the keyboard are
+		If the keyboard is
 	
 		| 1 | 2 | 3 |
 		| 4 | 5 | 6 |
