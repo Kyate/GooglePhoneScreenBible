@@ -524,7 +524,7 @@ bless～
 27.	面试官一美国小哥，简单闲聊后甩题：
 
 
-	给一个 array of words，和favorite letters， 让重新排序array，使得按照favorite letters的priority 排列。 没有包含 favorite letters 的 words 则继续按照原本字母表排序
+	给一个 array of words，和favorite letters， 让重新排序array，使得按照favorite letters的priority 排列。 没有包含 favorite letters 的 words 则继续按照 **原本字母表** 排序
 
 	举个栗子：
 
