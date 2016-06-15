@@ -54,12 +54,15 @@
 		E54225961D11CE6900A74626 /* BCDAddOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCDAddOne.h; sourceTree = "<group>"; };
 		E54225971D11D5AD00A74626 /* FilterOutChar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilterOutChar.h; sourceTree = "<group>"; };
 		E54225981D11DF7B00A74626 /* MinMaxRecentSystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinMaxRecentSystem.h; sourceTree = "<group>"; };
+		E54225991D11E8BF00A74626 /* BinaryWithTwo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryWithTwo.h; sourceTree = "<group>"; };
+		E542259A1D11F16700A74626 /* LongestConsecutiveBinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestConsecutiveBinaryTree.h; sourceTree = "<group>"; };
 		E5635CDF1D0DF3A800142D52 /* StringEncoderDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringEncoderDecoder.h; sourceTree = "<group>"; };
 		E58585911D0B423500286BA6 /* GridMaxQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridMaxQuery.h; sourceTree = "<group>"; };
 		E58585921D0B5D0200286BA6 /* NodeParentId.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeParentId.h; sourceTree = "<group>"; };
 		E58585931D0BBDA500286BA6 /* MovingAverageDataStream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovingAverageDataStream.h; sourceTree = "<group>"; };
 		E58585941D0BC41B00286BA6 /* BinaryReplacement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryReplacement.h; sourceTree = "<group>"; };
 		E58585951D0BCEF400286BA6 /* AddOneToLargeNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddOneToLargeNumber.h; sourceTree = "<group>"; };
+		E5FC4C851D11F6C2006113C1 /* LongestConsecutiveArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestConsecutiveArray.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,9 @@
 				E54225961D11CE6900A74626 /* BCDAddOne.h */,
 				E54225971D11D5AD00A74626 /* FilterOutChar.h */,
 				E54225981D11DF7B00A74626 /* MinMaxRecentSystem.h */,
+				E54225991D11E8BF00A74626 /* BinaryWithTwo.h */,
+				E542259A1D11F16700A74626 /* LongestConsecutiveBinaryTree.h */,
+				E5FC4C851D11F6C2006113C1 /* LongestConsecutiveArray.h */,
 			);
 			path = GooglePhoneBible;
 			sourceTree = "<group>";

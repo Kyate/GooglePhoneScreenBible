@@ -12,22 +12,15 @@
 #include <mutex>
 #include <thread>
 
-#include "MinMaxRecentSystem.h"
+#include "BinaryWithTwo.h"
 
 using namespace std;
 
+
+
+
 int main(int argc, const char * argv[]) {
+
     
-    MinMaxRecentSystem system;
-    system.add(1, 4);
-    std::cout << system.getMin() << " " << system.getMax() << " " << system.getRecent() << std::endl;
-    system.add(4, 7);
-    std::cout << system.getMin() << " " << system.getMax() << " " << system.getRecent() << std::endl;
-    system.add(2, 5);
-    std::cout << system.getMin() << " " << system.getMax() << " " << system.getRecent() << std::endl;
-    system.update(2, 8);
-    std::cout << system.getMin() << " " << system.getMax() << " " << system.getRecent() << std::endl;
-    system.remove(4);
-    std::cout << system.getMin() << " " << system.getMax() << " " << system.getRecent() << std::endl;
     return 0;
 }
