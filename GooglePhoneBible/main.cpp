@@ -12,15 +12,17 @@
 #include <mutex>
 #include <thread>
 
-#include "SkyLine.h"
+#include "numberABC.h"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
     
-    vector<vector<int>> buildings{{0,2,3}, {2,5,3}, {2,6,5}};
+    int A = 34567, B = 45678;
     
-    vector<pair<int,int>> result = getSkyline(buildings);
+    int result = MinimumNumberABC(A, B);
+    
+    std::cout << result << std::endl;
 
     return 0;
 }
