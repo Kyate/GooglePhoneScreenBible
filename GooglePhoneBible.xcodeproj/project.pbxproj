@@ -46,6 +46,7 @@
 		E542258E1D1087F600A74626 /* TwoSumClosestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoSumClosestModel.h; sourceTree = "<group>"; };
 		E542258F1D10A76D00A74626 /* SkyLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SkyLine.h; sourceTree = "<group>"; };
 		E54225901D10E21800A74626 /* numberABC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = numberABC.h; sourceTree = "<group>"; };
+		E54225911D10FA9E00A74626 /* AndroidUnlockPatterns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AndroidUnlockPatterns.h; sourceTree = "<group>"; };
 		E5635CDF1D0DF3A800142D52 /* StringEncoderDecoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringEncoderDecoder.h; sourceTree = "<group>"; };
 		E58585911D0B423500286BA6 /* GridMaxQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GridMaxQuery.h; sourceTree = "<group>"; };
 		E58585921D0B5D0200286BA6 /* NodeParentId.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NodeParentId.h; sourceTree = "<group>"; };
@@ -112,6 +113,7 @@
 				E542258E1D1087F600A74626 /* TwoSumClosestModel.h */,
 				E542258F1D10A76D00A74626 /* SkyLine.h */,
 				E54225901D10E21800A74626 /* numberABC.h */,
+				E54225911D10FA9E00A74626 /* AndroidUnlockPatterns.h */,
 			);
 			path = GooglePhoneBible;
 			sourceTree = "<group>";
