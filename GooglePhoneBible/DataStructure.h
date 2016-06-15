@@ -36,6 +36,12 @@ struct TreeLinkNode {
     TreeLinkNode(int x) : val(x), left(NULL), right(NULL), next(NULL) {}
 };
 
+struct TreeDoubleLinkNode {
+    int val;
+    TreeDoubleLinkNode *left, *right, *next, *prev;
+    TreeDoubleLinkNode(int x) : val(x), left(NULL), right(NULL), next(NULL), prev(NULL) {}
+};
+
 struct ListNode {
     int val;
     ListNode *next;
