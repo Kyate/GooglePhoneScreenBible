@@ -12,24 +12,17 @@
 #include <mutex>
 #include <thread>
 
-#include "MostFrequentWord.h"
+#include "RobotMoving.h"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
     
-    MostFreqWord freq;
-    freq.add("abc");
+    RobotMoving robot;
     
-    std::cout << freq.get() << std::endl;
-
-    freq.add("abc");
-    freq.add("jjj");
-    freq.add("jjj");
-    freq.add("jjj");
-    freq.add("abc");
-    freq.add("abc");
-    std::cout << freq.get() << std::endl;
+    pair<int,int> coord = robot.moveWithRepBlock("FF2(FFR)");
+    
+    std::cout << coord.first << " " << coord.second << std::endl;
     
     return 0;
 }
