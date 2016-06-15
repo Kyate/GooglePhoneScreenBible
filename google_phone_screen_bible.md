@@ -351,18 +351,30 @@ bless～
 	
 22.	发个google 跪经， 一个三哥面的。感觉他人应该不错，有试着提示我，可是那英语好难理解呀。。。
 
+
+
 	好了，上题：
 
 	
 		Find the total number of patterns of the Android lock screen. The number of key used has to be at least 4, and max 9.
-		Example: 
+		Example:
+		If the keyboard are
+	
+		| 1 | 2 | 3 |
+		| 4 | 5 | 6 |
+		| 7 | 8 | 9 |
+	
 		use 5 keys:
+		
 		OAB
 		OOC
 		OED
+		which means 2->3->6->9->8
+		
 		OAB
 		OCD
 		OOE
+		which means 2->3->5->6->9
 
 		Same thing goes with 4, 6, 7, 8, 9 keys. Count the total possible pattern. The order of keys used matters.
 
