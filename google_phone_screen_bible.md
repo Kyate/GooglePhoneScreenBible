@@ -538,8 +538,7 @@ bless～
 
 	算是半个水题。用随便一种sorting自己定义一个 comparator就ok。也可以用类似radix sort 来逐层比较每一个位置的letter。但是本人脑抽，一紧张把quicksort的pivot index搞错被interviewer发现了。估计难逃一死了。
 
-	发个贴给大家看一看本人的死相多难看之余，希望大家别犯同样的傻叉错误。。-google 1point3acres
-	
+	发个贴给大家看一看本人的死相多难看之余，希望大家别犯同样的傻叉错误。。	
 
 	补充内容 (2016-2-24 07:39):
 	
