@@ -12,17 +12,15 @@
 #include <mutex>
 #include <thread>
 
-#include "RobotMoving.h"
+#include "BCDAddOne.h"
 
 using namespace std;
 
 int main(int argc, const char * argv[]) {
     
-    RobotMoving robot;
+    string result = BCDAddOne("10011001");
     
-    pair<int,int> coord = robot.moveWithRepBlock("FF2(FFR)");
-    
-    std::cout << coord.first << " " << coord.second << std::endl;
+    std::cout << result << std::endl;
     
     return 0;
 }
