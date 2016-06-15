@@ -347,6 +347,7 @@ bless～
 	总体来说，一面encoder、deconder之前见过，但没有去实现，OOD问题CC150中见过；二面的题目没见过，所以感觉很虚。。。
 	Anyway，权当积累经验，攒RP了！
 
+	[http://www.1point3acres.com/bbs/thread-166600-1-1.html](http://www.1point3acres.com/bbs/thread-166600-1-1.html)
 	
 22.	发个google 跪经， 一个三哥面的。感觉他人应该不错，有试着提示我，可是那英语好难理解呀。。。
 
@@ -367,6 +368,7 @@ bless～
 
 	看到这个题一点想法都没有。。。
 
+	[http://www.1point3acres.com/bbs/thread-186774-1-1.html](http://www.1point3acres.com/bbs/thread-186774-1-1.html)
 
 23. 两道题
 
