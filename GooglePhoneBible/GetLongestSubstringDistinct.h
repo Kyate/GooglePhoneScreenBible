@@ -64,7 +64,7 @@ string getLongestSubstring(string s, int m) {
      public char getNextChar();
  }
  
- and return the begin and end 
+ and return the begin and end
  
  链接: https://instant.1point3acres.com/thread/171729 来源: 一亩三分地
  
@@ -72,7 +72,9 @@ string getLongestSubstring(string s, int m) {
 
 /*
  because the string is too big to fit in the memory, we can't use deque to track the string
+ use two pointers - begin and end - to remember the current substring
  */
+
 
 
 
