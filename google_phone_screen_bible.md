@@ -654,7 +654,7 @@ bless～
 	找这样的pair <A, B>，有两个条件, (1) A单词的后两个字母和B单词的前两个字母一样 （2）A单词的第一个字母和B单词的最后一个字母一样，例如<google, leg>就是一个合格的pair，<apple, lemma>也是一个合格的pair， <about, time>不可以，然后求这样的pair的最长长度，<google, leg>的长度=6+3
 
 
-	我开始没听见他说这个dict是sorted，太紧张了唉。
+	我开始没听见他说**这个dict是sorted**，太紧张了唉。
 
 
 	我只好用了个很sb的方法，用每个单词的最后两个字母建了一个map，然后再扫一遍寻找所有的pair
@@ -669,7 +669,8 @@ bless～
 	然后三天之后HR打电话来，说did well，被proceed到Youtube了。	求问有没有类似经历的小伙伴，Youtube和Google貌似在不同的location，难度有什么不一样么
 
 	Anyway，已经做好move on的准备了。。总比直接挂了好。。
-
+	
+	[http://www.1point3acres.com/bbs/thread-185123-1-1.html](http://www.1point3acres.com/bbs/thread-185123-1-1.html)
 
 32.	给定一个棵树，树的节点是一个的值是一对pair， 树可能有很多children，然后要做的就是给定一个pair<x, y>查看是不是能在一个树的同一高度上，找到这两个值，并且x只能在第一个位置，y只能在第二个位置。
 
