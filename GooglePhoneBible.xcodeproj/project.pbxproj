@@ -66,6 +66,7 @@
 		E5FC4C861D11FDDE006113C1 /* TreeInorderConnect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeInorderConnect.h; sourceTree = "<group>"; };
 		E5FC4C871D120F47006113C1 /* SortStringsFavorite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortStringsFavorite.h; sourceTree = "<group>"; };
 		E5FC4C881D12363F006113C1 /* MissingRanges.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MissingRanges.h; sourceTree = "<group>"; };
+		E5FC4C891D123876006113C1 /* IsStrobogrammatic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsStrobogrammatic.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +141,7 @@
 				E5FC4C861D11FDDE006113C1 /* TreeInorderConnect.h */,
 				E5FC4C871D120F47006113C1 /* SortStringsFavorite.h */,
 				E5FC4C881D12363F006113C1 /* MissingRanges.h */,
+				E5FC4C891D123876006113C1 /* IsStrobogrammatic.h */,
 			);
 			path = GooglePhoneBible;
 			sourceTree = "<group>";

@@ -12,19 +12,17 @@
 #include <mutex>
 #include <thread>
 
-#include "SortStringsFavorite.h"
+#include "IsStrobogrammatic.h"
 
 using namespace std;
 
 
 int main(int argc, const char * argv[]) {
-
-    vector<string> strs{"aab","baa","caa","aaa","aaaa"};
     
-    SortWithFavorite(strs, "zh");
-    
-    output1DVectorHelper(strs);
 
+    vector<string> result = strobogrammaticInRange("1000");
+    
+    output1DVectorHelper(result);
     
     return 0;
 }
