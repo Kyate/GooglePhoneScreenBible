@@ -581,7 +581,21 @@ bless～
 		interface BigString { 
 			public boolean hasNextChar(); 
 			public char getNextChar(); 
-		} 
+		}
+		
+	Instead of returning a String, return the start index and end index of when the longest substring occurred.
+
+		class Substring { 
+		        Substring(long startpos, long endpos) {
+		                this.startpos = startpos; 
+		                this.endpos = endpos;
+		        }
+		        …
+		}
+
+	So the new method signature is:
+	
+		Substring getLongestSubstring(BigString s, int m) 
 	
 	补充内容 (2016-4-3 12:28): onsite求人品TAT….虽然拿到onsite就已经是赚了….
 

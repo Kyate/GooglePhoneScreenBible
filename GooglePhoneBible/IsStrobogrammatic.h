@@ -13,7 +13,15 @@
 
 using namespace std;
 
-
+/*
+ 
+ 上周五面的，上来直接做题~
+ 
+ 判断一个数是不是rotation symmetric，就是把一个数旋转180度，是不是还是原来的那个数，例如“619”，旋转180度还是“619”；followup：给一个数n，输出所有小于n的rotation symmetric number。
+ 
+ 链接: https://instant.1point3acres.com/thread/176815 来源: 一亩三分地
+ 
+ */
 
 bool isStrobogrammatic(string num) {
     if (num.length()==0) return false;

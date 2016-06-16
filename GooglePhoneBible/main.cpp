@@ -12,17 +12,19 @@
 #include <mutex>
 #include <thread>
 
-#include "IsStrobogrammatic.h"
+#include "GetLongestSubstringDistinct.h"
 
 using namespace std;
 
 
 int main(int argc, const char * argv[]) {
     
-
-    vector<string> result = strobogrammaticInRange("1000");
+    string s = "ABACAAAB";
     
-    output1DVectorHelper(result);
+    string result = getLongestSubstring(s, 2);
+    
+    cout << result << endl;
+    
     
     return 0;
 }
