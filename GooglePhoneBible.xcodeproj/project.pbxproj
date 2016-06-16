@@ -70,6 +70,7 @@
 		E5FC4C8A1D1248EC006113C1 /* GetLongestSubstringDistinct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetLongestSubstringDistinct.h; sourceTree = "<group>"; };
 		E5FC4C8B1D132775006113C1 /* ShortestPalindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShortestPalindrome.h; sourceTree = "<group>"; };
 		E5FC4C8C1D132811006113C1 /* IsSubtree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsSubtree.h; sourceTree = "<group>"; };
+		E5FC4C8D1D134144006113C1 /* LongestPair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestPair.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +149,7 @@
 				E5FC4C8A1D1248EC006113C1 /* GetLongestSubstringDistinct.h */,
 				E5FC4C8B1D132775006113C1 /* ShortestPalindrome.h */,
 				E5FC4C8C1D132811006113C1 /* IsSubtree.h */,
+				E5FC4C8D1D134144006113C1 /* LongestPair.h */,
 			);
 			path = GooglePhoneBible;
 			sourceTree = "<group>";
