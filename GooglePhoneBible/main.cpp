@@ -12,7 +12,7 @@
 #include <mutex>
 #include <thread>
 
-#include "LongestPair.h"
+#include "RandomHashMap.h"
 
 using namespace std;
 
@@ -36,11 +36,17 @@ TreeNode * ConstructTree() {
 int main(int argc, const char * argv[]) {
     
     
-    vector<string> dict{"about", "apple", "google", "gooooooogle", "leg", "leeeeeeeeg", "lemma", "time"};
+    RandomHashMap hm;
+    hm.insert(2, 10);
+    hm.insert(6, 12);
+    hm.insert(0, 7);
+    hm.insert(19, 5);
     
-    int result = LongestPairBinraySearch(dict); 
+    std::cout << hm.getRandom() << std::endl;
     
-    std::cout << result << endl;
+    hm.remove(0);
+    
+    std::cout << hm.getRandom() << std::endl;
     
     return 0;
 }
