@@ -75,6 +75,7 @@
 		E5FC4C901D139E67006113C1 /* CountGreater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountGreater.h; sourceTree = "<group>"; };
 		E5FC4C911D13A625006113C1 /* RandomSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomSet.h; sourceTree = "<group>"; };
 		E5FC4C921D146C15006113C1 /* GraphRatio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GraphRatio.h; sourceTree = "<group>"; };
+		E5FC4C931D147A8A006113C1 /* LongestConsecutiveSubarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestConsecutiveSubarray.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +159,7 @@
 				E5FC4C901D139E67006113C1 /* CountGreater.h */,
 				E5FC4C911D13A625006113C1 /* RandomSet.h */,
 				E5FC4C921D146C15006113C1 /* GraphRatio.h */,
+				E5FC4C931D147A8A006113C1 /* LongestConsecutiveSubarray.h */,
 			);
 			path = GooglePhoneBible;
 			sourceTree = "<group>";

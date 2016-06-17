@@ -12,7 +12,7 @@
 #include <mutex>
 #include <thread>
 
-#include "GraphRatio.h"
+#include "LongestConsecutiveSubarray.h"
 
 using namespace std;
 
@@ -36,17 +36,11 @@ TreeNode * ConstructTree() {
 
 int main(int argc, const char * argv[]) {
     
-    NodeRatio r1('A', 'B', 0.5);
-    NodeRatio r2('A', 'E', 2.3);
-    NodeRatio r3('C', 'E', 1.5);
-    NodeRatio r4('C', 'D', 1.0);
-    NodeRatio r5('F', 'D', 0.5);
+    vector<int> nums{2,1,2,3,4,5,7,8,9};
     
-    vector<NodeRatio> input{r1,r2,r3,r4,r5};
+    int result = LongestConsecutiveSubarray(nums);
     
-    vector<pair<char, char>> dest{{'C', 'B'},{'A', 'D'}};
-    
-    vector<NodeRatio> result = computeNodeRatio(input, dest);
+    std::cout << result << std::endl;
     
     return 0;
 }
