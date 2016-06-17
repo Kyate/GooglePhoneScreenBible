@@ -73,6 +73,7 @@
 		E5FC4C8D1D134144006113C1 /* LongestPair.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestPair.h; sourceTree = "<group>"; };
 		E5FC4C8F1D138251006113C1 /* RandomHashMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomHashMap.h; sourceTree = "<group>"; };
 		E5FC4C901D139E67006113C1 /* CountGreater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountGreater.h; sourceTree = "<group>"; };
+		E5FC4C911D13A625006113C1 /* RandomSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomSet.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +155,7 @@
 				E5FC4C8D1D134144006113C1 /* LongestPair.h */,
 				E5FC4C8F1D138251006113C1 /* RandomHashMap.h */,
 				E5FC4C901D139E67006113C1 /* CountGreater.h */,
+				E5FC4C911D13A625006113C1 /* RandomSet.h */,
 			);
 			path = GooglePhoneBible;
 			sourceTree = "<group>";

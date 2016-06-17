@@ -12,7 +12,7 @@
 #include <mutex>
 #include <thread>
 
-#include "CountGreater.h"
+#include "RandomSet.h"
 
 using namespace std;
 
@@ -38,7 +38,7 @@ int main(int argc, const char * argv[]) {
     
     vector<int> sums{0,3,5,2,6,1};
     
-    vector<int> result = countGreater(sums);
+    vector<int> result = RandomSet(sums, 5);
     
     output1DVectorHelper(result);
     
