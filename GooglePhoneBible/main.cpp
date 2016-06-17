@@ -12,7 +12,7 @@
 #include <mutex>
 #include <thread>
 
-#include "RandomHashMap.h"
+#include "CountGreater.h"
 
 using namespace std;
 
@@ -33,20 +33,14 @@ TreeNode * ConstructTree() {
     return root1;
 }
 
+
 int main(int argc, const char * argv[]) {
     
+    vector<int> sums{0,3,5,2,6,1};
     
-    RandomHashMap hm;
-    hm.insert(2, 10);
-    hm.insert(6, 12);
-    hm.insert(0, 7);
-    hm.insert(19, 5);
+    vector<int> result = countGreater(sums);
     
-    std::cout << hm.getRandom() << std::endl;
-    
-    hm.remove(0);
-    
-    std::cout << hm.getRandom() << std::endl;
+    output1DVectorHelper(result);
     
     return 0;
 }

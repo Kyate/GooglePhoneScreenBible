@@ -54,7 +54,22 @@ int DoubleIntegerRangeNumberBS(vector<double> & nums) {
             maxX = nums[i];
         }
     }
-    std::cout << maxX << std::endl;
+    return maxlength;
+}
+
+// Another O(nlgn) solution
+// O(n) after sorted
+
+int DoubleIntegerRangeNumberON(vector<double> & nums) {
+    int maxlength = 1;
+    sort(nums.begin(), nums.end());
+    int i = 0;
+    for (int j = 0; j < nums.size(); j++) {
+        if (nums[j]<nums[i]+1) continue;
+        maxlength = max(maxlength, j-i);
+        i++;
+    }
+    maxlength = max(maxlength, static_cast<int>(nums.size())-i);
     return maxlength;
 }
 
