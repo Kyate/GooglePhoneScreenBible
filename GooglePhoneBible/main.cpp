@@ -12,7 +12,7 @@
 #include <mutex>
 #include <thread>
 
-#include "RandomSet.h"
+#include "GraphRatio.h"
 
 using namespace std;
 
@@ -36,11 +36,17 @@ TreeNode * ConstructTree() {
 
 int main(int argc, const char * argv[]) {
     
-    vector<int> sums{0,3,5,2,6,1};
+    NodeRatio r1('A', 'B', 0.5);
+    NodeRatio r2('A', 'E', 2.3);
+    NodeRatio r3('C', 'E', 1.5);
+    NodeRatio r4('C', 'D', 1.0);
+    NodeRatio r5('F', 'D', 0.5);
     
-    vector<int> result = RandomSet(sums, 5);
+    vector<NodeRatio> input{r1,r2,r3,r4,r5};
     
-    output1DVectorHelper(result);
+    vector<pair<char, char>> dest{{'C', 'B'},{'A', 'D'}};
+    
+    vector<NodeRatio> result = computeNodeRatio(input, dest);
     
     return 0;
 }
