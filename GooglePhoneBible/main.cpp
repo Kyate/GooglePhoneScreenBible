@@ -12,7 +12,7 @@
 #include <mutex>
 #include <thread>
 
-#include "AlienDict.h"
+#include "SeparateString.h"
 
 using namespace std;
 
@@ -36,18 +36,10 @@ TreeNode * ConstructTree() {
 
 int main(int argc, const char * argv[]) {
     
-    vector<string> words{"BB",
-        "BBE",
-        "BAD",
-        "BACE",
-        "BED",
-        "DAD",
-        "ABBC",
-        "ABBA"};
+    string s = "abc def iuo\"program edede with exit\"lushen tai shen";
+    vector<string> result = SeparateString(s);
     
-    string order = AlienDictionary(words);
-    
-    std::cout << order << std::endl;
+    output1DVectorHelper(result);
     
     return 0;
 }
