@@ -1085,6 +1085,12 @@ bless～
 	补充内容 (2016-4-10 00:05):
 
 	补充一下，output是要用play log去找每个role的 登陆次数
+	
+	避免引起歧义解释下。。update表示某个时刻某个玩家切换了角色，play log表示某个时刻某个玩家登陆了游戏，也就是要用play log的时间找该玩家play 的role，然后统计次数，登陆一次就算一次
+	
+	再举个例：play log里有4条记录，mark 3条，jack 1条，mark玩过两次wizard一次knight (切换角色反应在update log里)，jack玩过一次wizard，所以wizard一共3次，knight一次
+
+	 >  实际上，需要按照play log来找在当前这个时间，玩家的role是什么（因为在这个play发生之前，玩家可能换过很多种role）。因此，首先将update log建成key为user，value为按时间排序的pair<时间，role>。搜索play log的过程中，用Binary search搜索该用户对应的所有update条目，找到当前play时间之前的最后一条update记录，就是目前该用户的role。
 
 	
 	[http://www.1point3acres.com/bbs/thread-179863-1-1.html](http://www.1point3acres.com/bbs/thread-179863-1-1.html)
