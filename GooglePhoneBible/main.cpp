@@ -12,7 +12,7 @@
 #include <mutex>
 #include <thread>
 
-#include "LongestConsecutiveSubarray.h"
+#include "AlienDict.h"
 
 using namespace std;
 
@@ -36,11 +36,18 @@ TreeNode * ConstructTree() {
 
 int main(int argc, const char * argv[]) {
     
-    vector<int> nums{2,1,2,3,4,5,7,8,9};
+    vector<string> words{"BB",
+        "BBE",
+        "BAD",
+        "BACE",
+        "BED",
+        "DAD",
+        "ABBC",
+        "ABBA"};
     
-    int result = LongestConsecutiveSubarray(nums);
+    string order = AlienDictionary(words);
     
-    std::cout << result << std::endl;
+    std::cout << order << std::endl;
     
     return 0;
 }
