@@ -12,7 +12,7 @@
 #include <mutex>
 #include <thread>
 
-#include "PopularItemFreq.h"
+#include "RangeMaximumQuery.h"
 
 using namespace std;
 
@@ -36,11 +36,12 @@ TreeNode * ConstructTree() {
 
 int main(int argc, const char * argv[]) {
     
-    vector<int> nums{1,1,1,2,2,2,2,2,2,3,3,4,4,4,4};
+    vector<int> nums{2,5,6,1,0,9,7,10};
     
-    int result = PopularItemFreq(nums);
+    RangeMaximumQuerySegTree rmq(nums);
     
-    std::cout << result << std::endl;
+    std::cout << rmq.query(0, 3) << std::endl;
+    std::cout << rmq.query(2,8) << std::endl;
     
     return 0;
 }

@@ -81,6 +81,7 @@
 		E5FC4C961D15BDF9006113C1 /* AlienDict.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlienDict.h; sourceTree = "<group>"; };
 		E5FC4C971D15C3C4006113C1 /* SeparateString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SeparateString.h; sourceTree = "<group>"; };
 		E5FC4C981D15CB65006113C1 /* PopularItemFreq.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopularItemFreq.h; sourceTree = "<group>"; };
+		E5FC4C991D15E44C006113C1 /* RangeMaximumQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RangeMaximumQuery.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +171,7 @@
 				E5FC4C961D15BDF9006113C1 /* AlienDict.h */,
 				E5FC4C971D15C3C4006113C1 /* SeparateString.h */,
 				E5FC4C981D15CB65006113C1 /* PopularItemFreq.h */,
+				E5FC4C991D15E44C006113C1 /* RangeMaximumQuery.h */,
 			);
 			path = GooglePhoneBible;
 			sourceTree = "<group>";
