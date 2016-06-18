@@ -12,7 +12,7 @@
 #include <mutex>
 #include <thread>
 
-#include "RangeMaximumQuery.h"
+#include "FourWayStop.h"
 
 using namespace std;
 
@@ -36,12 +36,46 @@ TreeNode * ConstructTree() {
 
 int main(int argc, const char * argv[]) {
     
-    vector<int> nums{2,5,6,1,0,9,7,10};
+    Lane * lane1 = new Lane();
+    Lane * lane2 = new Lane();
+    Lane * lane3 = new Lane();
+    Lane * lane4 = new Lane();
     
-    RangeMaximumQuerySegTree rmq(nums);
+    FourWayStop fws;
     
-    std::cout << rmq.query(0, 3) << std::endl;
-    std::cout << rmq.query(2,8) << std::endl;
+    Car * car1 = new Car(1);
+    fws.arriveCar(car1, lane1);
+    
+    Car * car2 = new Car(2);
+    fws.arriveCar(car2, lane1);
+    
+    Car * car3 = new Car(3);
+    fws.arriveCar(car3, lane1);
+    
+    Car * car4 = new Car(4);
+    fws.arriveCar(car4, lane1);
+    
+    Car * car5 = new Car(5);
+    fws.arriveCar(car5, lane1);
+    
+    Car * car6 = new Car(6);
+    fws.arriveCar(car6, lane2);
+    
+    Car * car7 = new Car(7);
+    fws.arriveCar(car7, lane3);
+    
+    Car * car8 = new Car(8);
+    fws.arriveCar(car8, lane4);
+    
+    Car * car9 = new Car(9);
+    fws.arriveCar(car9, lane2);
+    
+    int i = 0;
+    
+    while(i < 9) {
+        Car * c = fws.getNextCar();
+        std::cout << c->carid << std::endl;
+    }
     
     return 0;
 }
