@@ -12,7 +12,7 @@
 #include <mutex>
 #include <thread>
 
-#include "SeparateString.h"
+#include "PopularItemFreq.h"
 
 using namespace std;
 
@@ -36,10 +36,11 @@ TreeNode * ConstructTree() {
 
 int main(int argc, const char * argv[]) {
     
-    string s = "abc def iuo\"program edede with exit\"lushen tai shen";
-    vector<string> result = SeparateString(s);
+    vector<int> nums{1,1,1,2,2,2,2,2,2,3,3,4,4,4,4};
     
-    output1DVectorHelper(result);
+    int result = PopularItemFreq(nums);
+    
+    std::cout << result << std::endl;
     
     return 0;
 }
