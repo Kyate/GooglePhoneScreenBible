@@ -9,7 +9,7 @@
 #ifndef FourWayStop_h
 #define FourWayStop_h
 
-#include "RangeMaximumQuery.h"
+#include "DataStructure.h"
 
 using namespace std;
 

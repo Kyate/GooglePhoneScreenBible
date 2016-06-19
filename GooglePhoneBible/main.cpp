@@ -12,7 +12,7 @@
 #include <mutex>
 #include <thread>
 
-#include "PlayerRoleCount.h"
+#include "RandomMatrixGenerator.h"
 
 using namespace std;
 
@@ -37,24 +37,11 @@ TreeNode * ConstructTree() {
 
 int main(int argc, const char * argv[]) {
     
-    UpdateLog l1(1, "mike", "fighter");
-    UpdateLog l2(2, "john", "wizard");
-    UpdateLog l3(5, "mike", "wizard");
-    UpdateLog l4(8, "mike", "knight");
+    vector<vector<int>> matrix(10, vector<int>(10, 0));
     
-    PlayLog p1(3, "mike");
-    PlayLog p2(6, "mike");
-    PlayLog p3(5, "john");
-    PlayLog p4(9, "mike");
+    MatrixRandomGenerator(matrix, 0.6);
     
-    vector<UpdateLog> updates{l1,l2,l3,l4};
-    vector<PlayLog> players{p1,p2,p3,p4};
-    
-    vector<pair<string, int>> result = CountRoleNumber(updates, players);
-    
-    for (auto p : result) {
-        std::cout << p.first << " " << p.second << std::endl;
-    }
+    output2DMatHelper(matrix);
     
     return 0;
 }

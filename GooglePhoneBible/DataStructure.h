@@ -21,6 +21,8 @@
 #include <set>
 #include <sstream>
 
+#include <numeric>
+
 #include <time.h>
 
 using namespace std;

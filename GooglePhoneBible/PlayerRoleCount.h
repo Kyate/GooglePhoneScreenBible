@@ -9,7 +9,7 @@
 #ifndef PlayerRoleCount_h
 #define PlayerRoleCount_h
 
-#include "RangeMaximumQuery.h"
+#include "DataStructure.h"
 
 using namespace std;
 
