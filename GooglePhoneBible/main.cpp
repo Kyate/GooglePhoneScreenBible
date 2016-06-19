@@ -12,9 +12,10 @@
 #include <mutex>
 #include <thread>
 
-#include "FourWayStop.h"
+#include "PlayerRoleCount.h"
 
 using namespace std;
+
 
 TreeNode * ConstructTree() {
     TreeNode * root1 = new TreeNode(1);
@@ -36,45 +37,23 @@ TreeNode * ConstructTree() {
 
 int main(int argc, const char * argv[]) {
     
-    Lane * lane1 = new Lane();
-    Lane * lane2 = new Lane();
-    Lane * lane3 = new Lane();
-    Lane * lane4 = new Lane();
+    UpdateLog l1(1, "mike", "fighter");
+    UpdateLog l2(2, "john", "wizard");
+    UpdateLog l3(5, "mike", "wizard");
+    UpdateLog l4(8, "mike", "knight");
     
-    FourWayStop fws;
+    PlayLog p1(3, "mike");
+    PlayLog p2(6, "mike");
+    PlayLog p3(5, "john");
+    PlayLog p4(9, "mike");
     
-    Car * car1 = new Car(1);
-    fws.arriveCar(car1, lane1);
+    vector<UpdateLog> updates{l1,l2,l3,l4};
+    vector<PlayLog> players{p1,p2,p3,p4};
     
-    Car * car2 = new Car(2);
-    fws.arriveCar(car2, lane1);
+    vector<pair<string, int>> result = CountRoleNumber(updates, players);
     
-    Car * car3 = new Car(3);
-    fws.arriveCar(car3, lane1);
-    
-    Car * car4 = new Car(4);
-    fws.arriveCar(car4, lane1);
-    
-    Car * car5 = new Car(5);
-    fws.arriveCar(car5, lane1);
-    
-    Car * car6 = new Car(6);
-    fws.arriveCar(car6, lane2);
-    
-    Car * car7 = new Car(7);
-    fws.arriveCar(car7, lane3);
-    
-    Car * car8 = new Car(8);
-    fws.arriveCar(car8, lane4);
-    
-    Car * car9 = new Car(9);
-    fws.arriveCar(car9, lane2);
-    
-    int i = 0;
-    
-    while(i < 9) {
-        Car * c = fws.getNextCar();
-        std::cout << c->carid << std::endl;
+    for (auto p : result) {
+        std::cout << p.first << " " << p.second << std::endl;
     }
     
     return 0;
