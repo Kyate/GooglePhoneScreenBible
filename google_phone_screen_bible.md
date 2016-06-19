@@ -1302,13 +1302,31 @@ bless～
 	然后他让我给几个test cases， 然后我发现我忽略了input 小于1的情况。 然后我有想了下并没有想出来， 结束后一想，发现只要把while里的condition 改成 Math.abs(x-y)>0就可以handle输入数小于1的情况了，反正当时死活没想出来。
 
 	
-	后来在网上搜了下，好像还要考虑精度的，反正我是没考虑到这么多。然后时间就到了，互相说了thank you。。。。。。。我觉得我这情况应该是没戏了。。。。。。 哎，感觉这题五花八门啊，和平时刷leetcode的题都不太一样。。。。囧。。。结果还没出来，但已经不报希望了，只能说积累了些经验。大家如果有什么疑问可以问我。.1point3acres缃_
-
+	后来在网上搜了下，好像还要考虑精度的，反正我是没考虑到这么多。然后时间就到了，互相说了thank you。。。。。。。我觉得我这情况应该是没戏了。。。。。。 哎，感觉这题五花八门啊，和平时刷leetcode的题都不太一样。。。。囧。。。结果还没出来，但已经不报希望了，只能说积累了些经验。大家如果有什么疑问可以问我。
 
 	补充内容 (2016-4-13 03:53):
 
-	
 	刚刚收到google的电话， 进入onsite了， 好好准备吧
+	
+	[http://www.1point3acres.com/bbs/thread-184845-1-1.html](http://www.1point3acres.com/bbs/thread-184845-1-1.html)
+	
+58. 来跟大家分享phone interview的两道题
+
+	1. write a matrix class
+	
+			set(int i, int j, int value)
+			sum(int i, int j) 
+		
+		可求(0,0)到(i,j)整个square matrix elements的和
+		
+	2. 2sum BST
+		
+	第一题楼主用HashMap做的，思考了好久，sum只能想到O(N*N)的解，我是不是蠢得没谁了。导致第二题没写完，只写了个outline。好在面试官表示知道我的想法了......
+
+	补充内容 (2016-6-17 08:03):
+	刚才HR电话给我说schedule第二次电面...本来已经自我安慰MOVE ON了
+	
+	[http://www.1point3acres.com/bbs/thread-193418-1-1.html](http://www.1point3acres.com/bbs/thread-193418-1-1.html)
 
 
 

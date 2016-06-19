@@ -85,6 +85,10 @@
 		E5FC4C9A1D15FA48006113C1 /* FourWayStop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourWayStop.h; sourceTree = "<group>"; };
 		E5FC4C9B1D163B27006113C1 /* PlayerRoleCount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlayerRoleCount.h; sourceTree = "<group>"; };
 		E5FC4C9C1D16491D006113C1 /* RandomMatrixGenerator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomMatrixGenerator.h; sourceTree = "<group>"; };
+		E5FC4C9D1D16554F006113C1 /* LongestPathLeaf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestPathLeaf.h; sourceTree = "<group>"; };
+		E5FC4C9E1D17187B006113C1 /* SmallIntegerBucketSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmallIntegerBucketSort.h; sourceTree = "<group>"; };
+		E5FC4C9F1D171C33006113C1 /* TwentyFour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwentyFour.h; sourceTree = "<group>"; };
+		E5FC4CA01D1731F4006113C1 /* CarrotBroth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarrotBroth.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +182,10 @@
 				E5FC4C9A1D15FA48006113C1 /* FourWayStop.h */,
 				E5FC4C9B1D163B27006113C1 /* PlayerRoleCount.h */,
 				E5FC4C9C1D16491D006113C1 /* RandomMatrixGenerator.h */,
+				E5FC4C9D1D16554F006113C1 /* LongestPathLeaf.h */,
+				E5FC4C9E1D17187B006113C1 /* SmallIntegerBucketSort.h */,
+				E5FC4C9F1D171C33006113C1 /* TwentyFour.h */,
+				E5FC4CA01D1731F4006113C1 /* CarrotBroth.h */,
 			);
 			path = GooglePhoneBible;
 			sourceTree = "<group>";

@@ -11,11 +11,12 @@
 #include "OutputHelper.h"
 #include <mutex>
 #include <thread>
+#include <chrono>
 
-#include "RandomMatrixGenerator.h"
+#include "CarrotBroth.h"
 
 using namespace std;
-
+using namespace std::chrono;
 
 TreeNode * ConstructTree() {
     TreeNode * root1 = new TreeNode(1);
@@ -37,11 +38,9 @@ TreeNode * ConstructTree() {
 
 int main(int argc, const char * argv[]) {
     
-    vector<vector<int>> matrix(10, vector<int>(10, 0));
+    double result = CarrotBroth(50, 50);
     
-    MatrixRandomGenerator(matrix, 0.6);
-    
-    output2DMatHelper(matrix);
+    std::cout << result << std::endl;
     
     return 0;
 }
