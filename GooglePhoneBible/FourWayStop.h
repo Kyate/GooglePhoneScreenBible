@@ -13,6 +13,19 @@
 
 using namespace std;
 
+/*
+ 
+ 上来聊了下debug中遇到的挑战和怎么解决的， 聊了10min。
+ 
+ 第一题 atoi 只考虑正数，写了一些test case，没啥问题。
+ 
+ 第二题 没见过，有一个4-way stop的路口，4条lane， 给两个function getNextCar（）， arriveCar（Car car， Lane lane），要求实现这两个方法。
+ 
+ 就是生活中一个intersection有4个stop sign，然后看看哪条lane的车应该先走。理解完题只剩10min，写了一会儿发现好烦，最后没时间了，说了下思路，还有好多核心code没写。。 估计挂了。。。
+ 
+ http://www.1point3acres.com/bbs/thread-188010-1-1.html
+ 
+ */
 
 struct Car {
     Car(int id):carid(id) {};

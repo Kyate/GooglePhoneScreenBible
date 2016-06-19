@@ -12,7 +12,19 @@
 #include "DataStructure.h"
 
 using namespace std;
-
+/*
+ 
+ Range maximum query
+ 
+ 一开始扯了20分钟楼主做过得project,问了一下最challenging的part.
+ 
+ 然后直接 就是range maximum query, 给一个array, 求[start,end]中的最大。
+ 
+ 反正他就一直要求优化，写了三种方法（从最简单的开始）之后，楼主无能为力了，然后就谈谈time和space。 我看wiki有O(1)time, O(n)space的，但是表示不懂。
+ 
+ http://www.1point3acres.com/bbs/thread-177692-1-1.html
+ 
+ */
 
 /*
  

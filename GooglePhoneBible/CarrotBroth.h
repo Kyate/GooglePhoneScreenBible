@@ -13,6 +13,25 @@
 
 using namespace std;
 
+/*
+ 
+ 今天google 小哥一上来直接问题目 用google doc写的
+ 
+ 一锅汤，有胡萝卜和汤，各50份。然后有一堆人会来接汤，有四种人 a. 接一份里面有75%的胡萝卜，25%的汤 b. 接一份里面有50%的胡萝卜，50%的汤 c. 接一份里面有25%的胡萝卜，75%的汤 d. 接一份里面有0%的胡萝卜，100%的汤
+ 
+ 请问 当没有汤的时候，还剩下胡萝卜的这种情况的概率。
+ 
+ 我一开始很紧张，想不到，一脸懵。然后我就先写recursion的，写出base step和recursive step。然后他说很好，没有问题，然后他就问complexity。我说因为每一种可能都要算所以是N permutation。然后他让我在doc上写。我一开始还不懂什么意思，然后我写了O（N！）。他说对，我就是想看你会不会写permutation。0_0 接着就问能不能improve。我这个时候已经想到是dp了，于是就说可以，用一个2dmatrix。最后complexity是O(胡萝卜+汤)。他很满意。然后剩下15分钟。扯问题。最后byebye。求过！
+ 
+ 新人求大米!!!!
+ 
+ 求好运！！！
+ 
+ http://www.1point3acres.com/bbs/thread-183037-1-1.html
+ 
+ */
+
+
 double CarrotBroth(int carrot, int broth) {
     carrot *= 4;
     broth *= 4;

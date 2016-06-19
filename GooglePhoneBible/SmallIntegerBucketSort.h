@@ -13,6 +13,19 @@
 
 using namespace std;
 
+/*
+ 
+ 你有 10^12个short integer，然后找出largest top100。最直白的方法就是用heap，分分钟完成。然后我想当然的说可以用hashmap，因为short integer 大概范围是-32000~32000，差不多64000个数，然后怎么
+ 弄key-value我不太清楚。他说heap is perfect enough，hashmap这个key-value pair不太好搞 - -。第二题就这么结束了。
+ 
+ 感觉老美面试还是稳，题比三哥简单。但是自己刚开始有点懵逼，表现的不太好，希望不要受到影响，求Onsite
+ 
+ http://www.1point3acres.com/bbs/thread-187850-1-1.html
+
+ 
+ */
+
+
 vector<int> SmallIntegerBucketSort(vector<int> & nums) {
     vector<int> buckets(64001, 0);
     int minimum = 32000;

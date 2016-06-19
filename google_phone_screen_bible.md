@@ -1269,11 +1269,13 @@ bless～
 
 	[http://www.1point3acres.com/bbs/thread-182643-1-1.html](http://www.1point3acres.com/bbs/thread-182643-1-1.html)
 
-56.	  
-
-		Suppose you have a list of prime numbers in order, but not consecutive. 
-		For example [3,7,13] Find the N smallest integers in order which have only these primes as factors. 
-		For example [3,7,9,13,21,...
+56.	Suppose you have a list of prime numbers in order, but not consecutive. 
+	
+	For example [3,7,13] 
+	
+	Find the N smallest integers in order which have only these primes as factors. 
+	
+	For example [3,7,9,13,21,...
 	
 	[http://www.1point3acres.com/bbs/thread-186161-1-1.html](http://www.1point3acres.com/bbs/thread-186161-1-1.html)
 

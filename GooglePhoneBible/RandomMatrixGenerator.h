@@ -13,6 +13,22 @@
 
 using namespace std;
 
+/*
+ 
+ 先聊了一下research然后就开始做题
+ 
+ 第一题是random generator的题，比如给100*100的matrix，初始为全零，让随机把其中p（比如百分之六十）的值设为1
+ 
+ 第二题是tree level order traversal，按层输出，只用打印出来就可以了
+ 
+ 然后就让我问问题了
+ 
+ 求人品啊希望大家都好运
+ 
+ http://www.1point3acres.com/bbs/thread-188230-1-1.html
+ 
+ */
+
 void MatrixRandomGenerator(vector<vector<int>> & matrix, double p) {
     int rows = matrix.size();
     if (rows==0) return;
