@@ -13,7 +13,7 @@
 #include <thread>
 #include <chrono>
 
-#include "CarrotBroth.h"
+#include "DayofWeek.h"
 
 using namespace std;
 using namespace std::chrono;
@@ -38,9 +38,9 @@ TreeNode * ConstructTree() {
 
 int main(int argc, const char * argv[]) {
     
-    double result = CarrotBroth(50, 50);
+    int x = DayOfWeek(19, 6, 2016);
     
-    std::cout << result << std::endl;
+    std::cout << x << std::endl;
     
     return 0;
 }

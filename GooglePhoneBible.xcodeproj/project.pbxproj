@@ -89,6 +89,7 @@
 		E5FC4C9E1D17187B006113C1 /* SmallIntegerBucketSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmallIntegerBucketSort.h; sourceTree = "<group>"; };
 		E5FC4C9F1D171C33006113C1 /* TwentyFour.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwentyFour.h; sourceTree = "<group>"; };
 		E5FC4CA01D1731F4006113C1 /* CarrotBroth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarrotBroth.h; sourceTree = "<group>"; };
+		E5FC4CA21D17985A006113C1 /* DayofWeek.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DayofWeek.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +187,7 @@
 				E5FC4C9E1D17187B006113C1 /* SmallIntegerBucketSort.h */,
 				E5FC4C9F1D171C33006113C1 /* TwentyFour.h */,
 				E5FC4CA01D1731F4006113C1 /* CarrotBroth.h */,
+				E5FC4CA21D17985A006113C1 /* DayofWeek.h */,
 			);
 			path = GooglePhoneBible;
 			sourceTree = "<group>";
